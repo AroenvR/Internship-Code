@@ -1,0 +1,1 @@
+Voorbeeld van de ingewikkelde ternaire functies dat ik tegen kwam in mijn eerste week en de oplossing ervoor.

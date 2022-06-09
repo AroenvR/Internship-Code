@@ -1,0 +1,1 @@
+Het SQL script dat ik heb gemaakt voor de tweede versie van het database model voor de DNS Crawler.

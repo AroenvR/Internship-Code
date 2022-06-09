@@ -1,0 +1,1 @@
+De frontend code van Maarten zijn aangevraagde uitbreiding zodat hij gemakkelijker verzamelde data kon bekijken en vergelijken.
