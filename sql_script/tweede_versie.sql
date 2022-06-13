@@ -3,7 +3,7 @@ CREATE TABLE request
 (
     id              SERIAL PRIMARY KEY,
     visit_id        UUID                     NOT NULL,
-    domain_name     VARCHAR(128)             NOT NULL, -- abc.be
+    domain_name     VARCHAR(128)             NOT NULL, -- domain.be
     prefix          VARCHAR(63)              NOT NULL, -- @, www, _dmarc
     record_type     CHAR(10)                 NOT NULL, -- A, AAAA, NS, ...
     rcode           INT,                               -- Success code for the requested record.
@@ -18,7 +18,7 @@ CREATE INDEX ON request (visit_id);
 CREATE TABLE response
 (
     id          SERIAL PRIMARY KEY,
-    record_data TEXT   NOT NULL, -- 94.126.48.90, s1.named.be., ...
+    record_data TEXT   NOT NULL, -- 12.345.67.89, foo.bar.be., ...
     ttl         INT,             -- time-to-live
     request_id  INT
 );
